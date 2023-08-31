@@ -1,0 +1,47 @@
+/* Estilos para habilitar el desplazamiento en ciertas páginas */
+.scrollable-body {
+    overflow: auto !important;
+  }
+  
+  /* registro.css */
+
+.registro-container {
+  overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+  /* Tus otros estilos aquí */
+}
+
+
+/* Estilos para el botón "Guardar" */
+/* registro.css */
+.save-link {
+  display: inline-block;
+  padding: 10px 80px;
+  background-color: #B6C3BD;
+  color: #1E573B;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute; /* Posición absoluta para colocar el botón en la parte inferior */
+  bottom: -22rem; /* Ajusta la distancia desde la parte inferior */
+  right: 32rem; /* Ajusta la distancia desde el lado derecho */
+}
+
+.save-link:hover {
+  background-color: #1E573B;
+  color: #B6C3BD;
+}
+
+
+
+
+
+
+
+
+.save-button:hover {
+  background-color: #1E573B;
+  color: #B6C3BD;
+}
